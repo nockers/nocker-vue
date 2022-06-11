@@ -1,0 +1,29 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/node_modules": true,
+    "*.lock": true,
+    "*.log": true,
+    "*.tsbuildinfo": true,
+    "packages/*/dist": false,
+    "packages/*/storybook-static": true,
+    "packages/*/types": true
+  },
+  "search.exclude": {
+    "*.lock": true,
+    "packages/*/dist": true,
+    "packages/*/storybook-static": true,
+    "packages/*/types": true
+  },
+  "files.associations": {
+    "*.xml": "html",
+    "*.svg": "html"
+  },
+  "deno.enable": false
+}

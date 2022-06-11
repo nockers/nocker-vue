@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": ["import", "unused-imports"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "unused-imports/no-unused-imports": 1,
+    "import/order": [1, { "alphabetize": { "order": "asc" } }]
+  }
+}

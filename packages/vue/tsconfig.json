@@ -1,0 +1,12 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "declarationMap": true,
+    "strict": true,
+    "jsxFactory": "VueJSX"
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["lib"]
+}
